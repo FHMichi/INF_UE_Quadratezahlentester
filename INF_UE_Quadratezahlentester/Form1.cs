@@ -18,6 +18,7 @@ namespace INF_UE_Quadratezahlentester
 
         private void btmTest_Click(object sender, EventArgs e)
         {
+            //parsen 
             int userEntry = Int32.Parse(tbEntry.Text);
             int squared = Int32.Parse(lblRandomZ.Text);
 
